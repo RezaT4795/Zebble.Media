@@ -53,7 +53,7 @@
     <Compile Include="UWP\**\*.cs" />
   </ItemGroup>
   <ItemGroup Condition=" $(DefineConstants.Contains('ANDROID')) ">
-	<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.9.2.1" />
+	<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.9.3.2" />
     <Compile Include="Android\**\*.cs" />
   </ItemGroup>
   <ItemGroup Condition=" $(DefineConstants.Contains('IOS')) ">
